@@ -7,7 +7,7 @@ function saudacao(pessoa: Pessoa): string {
     try {
         return `Olá, ${pessoa.nome}! Você tem ${pessoa.idade} anos.`;
     } catch (error) {
-        console.error("Erro na função saudacao:", error);
+        console.error("Kakador de bruxa:", error);
         return "Ocorreu um erro ao processar a saudação.";
     }
 }
