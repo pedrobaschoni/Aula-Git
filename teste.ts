@@ -12,5 +12,5 @@ function saudacao(pessoa: Pessoa): string {
     }
 }
 
-const usuario: Pessoa = { nome: "Isaque", idade: 21 };
+const usuario: Pessoa = { nome: "Osvaldo", idade: 21 };
 console.log(saudacao(usuario));
