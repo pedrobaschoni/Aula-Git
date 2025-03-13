@@ -7,5 +7,5 @@ function saudacao(pessoa: Pessoa): string {
     return `Olá, ${pessoa.nome}! Você tem ${pessoa.idade} anos.`;
 }
 
-const usuario: Pessoa = { nome: "Pedro", idade: 21 };
+const usuario: Pessoa = { nome: "Isaque", idade: 21 };
 console.log(saudacao(usuario));
